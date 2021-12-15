@@ -1,0 +1,40 @@
+03:42:58.201 -> Read Registers on MCUFRIEND UNO shield
+03:42:58.248 -> controllers either read as single 16-bit
+03:42:58.297 -> e.g. the ID is at readReg(0)
+03:42:58.343 -> or as a sequence of 8-bit values
+03:42:58.390 -> in special locations (first is dummy)
+03:42:58.390 -> 
+03:42:58.390 -> reg(0x0000) 00 00	ID: ILI9320, ILI9325, ILI9335, ...
+03:42:58.484 -> reg(0x0004) 00 54 80 66	Manufacturer ID
+03:42:58.531 -> reg(0x0009) 00 00 61 00 00	Status Register
+03:42:58.578 -> reg(0x000A) 00 08	Get Power Mode
+03:42:58.578 -> reg(0x000C) 00 66	Get Pixel Format
+03:42:58.625 -> reg(0x0061) 00 00	RDID1 HX8347-G
+03:42:58.672 -> reg(0x0062) 00 00	RDID2 HX8347-G
+03:42:58.718 -> reg(0x0063) 00 00	RDID3 HX8347-G
+03:42:58.718 -> reg(0x0064) 00 00	RDID1 HX8347-A
+03:42:58.765 -> reg(0x0065) 00 00	RDID2 HX8347-A
+03:42:58.812 -> reg(0x0066) 00 00	RDID3 HX8347-A
+03:42:58.859 -> reg(0x0067) 00 00	RDID Himax HX8347-A
+03:42:58.859 -> reg(0x0070) 00 00	Panel Himax HX8347-A
+03:42:58.906 -> reg(0x00A1) 00 93 30 93 30	RD_DDB SSD1963
+03:42:58.953 -> reg(0x00B0) 00 00	RGB Interface Signal Control
+03:42:59.009 -> reg(0x00B4) 00 00	Inversion Control
+03:42:59.056 -> reg(0x00B6) 00 02 02 3B 3B	Display Control
+03:42:59.103 -> reg(0x00B7) 00 06	Entry Mode Set
+03:42:59.150 -> reg(0x00BF) 00 00 00 00 00 00	ILI9481, HX8357-B
+03:42:59.197 -> reg(0x00C0) 00 0E 0E 0E 0E 0E 0E 0E 0E	Panel Control
+03:42:59.234 -> reg(0x00C8) 00 00 00 00 00 00 00 00 00 00 00 00 00	GAMMA
+03:42:59.329 -> reg(0x00CC) 00 04	Panel Control
+03:42:59.329 -> reg(0x00D0) 00 00 00	Power Control
+03:42:59.376 -> reg(0x00D2) 00 00 00 00 00	NVM Read
+03:42:59.424 -> reg(0x00D3) 00 00 94 86	ILI9341, ILI9488
+03:42:59.471 -> reg(0x00D4) 00 00 00 00	Novatek ID
+03:42:59.518 -> reg(0x00DA) 00 54	RDID1
+03:42:59.518 -> reg(0x00DB) 00 80	RDID2
+03:42:59.564 -> reg(0x00DC) 00 66	RDID3
+03:42:59.564 -> reg(0x00E0) 00 0D 0D 31 03 07 06 3A B1 7D 0F 17 07 3D 3F 04	GAMMA-P
+03:42:59.658 -> reg(0x00E1) 00 05 0C 1A 09 14 0B 36 53 3D 0D 1F 0E 0E 23 0E	GAMMA-N
+03:42:59.705 -> reg(0x00EF) 00 80 00 10 60 40	ILI9327
+03:42:59.752 -> reg(0x00F2) 00 18 A3 12 02 B2 12 FF 10 00 00 00	Adjust Control 2
+03:42:59.846 -> reg(0x00F6) 00 54 80 66	Interface Control

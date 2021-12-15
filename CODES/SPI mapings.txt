@@ -1,0 +1,8 @@
+SPI mapings Uno to Nano EVery to IOT:
+
+SCK  : D13 => D13 => D13
+CPIO : D12 => D12 => D12
+COPI : D11 => D11 => D11
+CS   : D10 => D08 => Any GPIO pin that can ouput GND/VCC... D08
+SDA  : D18 => D18 => D18 /A4
+SCL  : D19 => D19 => D19 /A5
